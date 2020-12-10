@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Plot 3</title>
+    <!-- Required tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  
+  <body style="background-color: #e0e0e0;"> <!-- Bring across body and navbar code from index, with adjusted "active tab" -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html" style="background-color: rgb(30, 179, 179); color: white; font-weight: bolder;">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+              
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./plot1.html">Max Temperature</a>
+                  <a class="dropdown-item" href="./plot2.html">Humidity</a>
+                  <a class="dropdown-item" href="./plot3.html">Cloudiness</a>
+                  <a class="dropdown-item" href="./plot4.html">Wind Speed</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <br/><br/>
+    <div class="container" style="background-color: white;">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-center">
+            Max Temperature
+          </h1>
+          <img src="./Assets/Fig1.png" alt="Max Temperature" width="100%" ALIGN="left">
+          <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however,
+            is the fact that the southern hemsiphere tends  to be warmer this time of year than the northern hemsiphere. This may be due to the time of year the data was generated.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-center">Visualizations</h3>
+          <div class="row">
+            <div class="col-3 col-6">
+              <a href="./plot1.html">
+                <img src="./Assets/Fig1.png" alt="Max Temperature" width="100%">
+              </a>
+            </div>
+            <div class="col-3 col-6">
+              <a href="./plot2.html">
+                <img src="./Assets/Fig2.png" alt="Humidity" width="100%">
+              </a>
+            </div>
+            <br>
+            <div class="col-3 col-6">
+              <a href="./plot3.html">
+                <img src="./Assets/Fig3.png" alt="Cloudiness" width="100%"  style="border-color: rgb(30, 179, 179); border-style:solid; border-width:2px;">
+              </a>
+            </div>
+            <div class="col-3 col-6">
+              <a href="./plot4.html">
+                <img src="./Assets/Fig4.png" alt="Wind Speed" width="100%">
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  
+    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
